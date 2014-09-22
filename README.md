@@ -10,7 +10,7 @@ Example:
  
  Page page = pdf.createPage(PaperType.LETTER);
  
- page.setFont(32.0f);
+ page.setFont("Arial","Bold",32.0f);
  
  page.setTextColor(3,3,3);
  
